@@ -1,6 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
-<html>
+<html lang = "sv">
 <link rel="stylesheet" href="resources/css/index.css"/>
 
 <head>
@@ -25,12 +25,12 @@
             </div>
             <div class = "menu-items">
                 <p class ="menu-day">Mån:</p>
-                <p class ="menu-course">Fisk- och skaldjursgryta med saffran &
-                    pressad potatis</p>
-                <p class = "menu-course">Schnitzel av kycklingfilé med currydressing
-                    & valfri potatis </p>
-                <p class ="menu-course"> Bakad Rotselleri, Stuvad Grönkål, Picklad
-                    Rödlök </p>
+                <li class ="menu-course">Fisk- och skaldjursgryta med saffran &
+                    pressad potatis</li>
+                <li class = "menu-course">Schnitzel av kycklingfilé med currydressing
+                    & valfri potatis </li>
+                <li class ="menu-course"> Bakad Rotselleri, Stuvad Grönkål, Picklad
+                    Rödlök </li>
 
             </div>
 
@@ -38,7 +38,7 @@
 
         </div>
         <img
-                src = "resources\images\lunch.jpg"
+                src = "resources\images\lunch.png"
                 class="card-image"
                 id = "menu-image"
                 alt=""
