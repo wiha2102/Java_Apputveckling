@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #f3f3f3,#f4f4f4);
+    scroll-behavior: smooth;
+}
+
+
+.header{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -50px;
+    padding-bottom: 10px;
+    box-shadow: 5px 8px 10px hsla(0,0%,0%, 0.08);
+}
+.header-tittle-container{
+    margin: 1% 15%;
+}
+.header-tittle{
+    color: black;
+    padding-top: 80px;
+}
+.wrapper{
+    margin: 5% 10%;
+}
+.menu-container{
+    display: grid;
+    grid-template-columns: 600px auto;
+    margin: 75px auto;
+    overflow: hidden;
+}
+.menu-card{
+    background-color: #fcfcf8;
+    box-shadow: 5px 8px 10px hsla(0,0%,0%,0.16);
+    padding: 18px 0 ;
+    border-radius: 5px;
+}
+.menu-tittle{
+    text-align: center;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Imprint MT Shadow, serif;
+    padding-top: 25px;
+    
+}
+.menu-week{
+    text-align: center;
+    font-weight: 250;
+    font-style: italic;
+    font-family: serif;
+
+}
+
+.menu-course{
+
+    text-align: left;
+    font-weight: 250;
+    font-style: inherit;
+    font-family: Serif;
+
+}
+.week-menu{
+    text-align: right;
+    font-weight: inherit;
+    font-style: italic;
+}
+.card-image{
+    margin: auto 0;
+    z-index: -1;
+    height: 500px;
+    box-shadow: 5px 8px 10px hsla(0,0%,0%,0.16);
+    border-radius: 5px;
+
+}
