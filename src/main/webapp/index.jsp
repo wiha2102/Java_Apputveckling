@@ -7,6 +7,9 @@
 <body>
 <h1><%= "Hello World!" %>
 </h1>
+<img src="AntonsSkafferi.PNG"
+alt="Not found"
+/>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
 </body>
